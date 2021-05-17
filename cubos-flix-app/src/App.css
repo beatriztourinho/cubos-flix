@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quantico:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body * {
+  color: #fdfdfd;
+}
+body {
+  font-family: "Manrope", sans-serif;
+  min-height: 100vh;
+  --corDeFundoHeader: #0f1c26;
+  --corDeFundoBody: #1d2226;
+}
+
+div > h2 {
+  margin-bottom: 16px;
+}
+
+.btns-filtro {
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  padding: 8;
+  opacity: 0.2;
+  min-width: 168px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+}
+
+#btn-filtro-selecionado {
+  background: rgba(225, 131, 200, 0.2);
+  border: 2px solid #e183c8;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #e183c8;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 937px 312px;
+  background-color: var(--corDeFundoBody);
+  min-height: 100vh;
+  padding: 24px 60px;
+  position: relative;
+}
+
+aside {
+  padding: 0 24px;
+
+  position: relative;
+}
